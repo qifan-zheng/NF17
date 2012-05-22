@@ -4,6 +4,8 @@
 header('Content-type:text/html; charset=utf-8');
 ini_set('display_errors',1);
 
+echo "haha just for fun ";
+
 require("toolbox/header.php");
 require("toolbox/frontcontroller.php");
 
