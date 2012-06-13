@@ -1,5 +1,5 @@
 -- Script d'insertion en base
-INSERT INTO tRayon (theme) VALUES ('Frais libre service');
+INSERT INTO tRayon (theme) VALUES ('Frais libre service')
 INSERT INTO tRayon (theme) VALUES ('Frais traditionnel');
 INSERT INTO tRayon (theme) VALUES ('Liquides');
 INSERT INTO tRayon (theme) VALUES ('Loisirs');
@@ -17,7 +17,6 @@ INSERT INTO tProduit (id, nom, datePeremption, prixDeBase, stock, categorie, bar
 
 --
 
-INSERT INTO tAssociation (id, theme) VALUES (1, 'Frais libre service');
 INSERT INTO tAssociation (id, theme) VALUES (2, 'Epicerie');
 INSERT INTO tAssociation (id, theme) VALUES (3, 'Liquides');
 INSERT INTO tAssociation (id, theme) VALUES (4, 'Frais libre service');
